@@ -1,5 +1,5 @@
 global:
-  domain: c-7d619fa.stage.kyma.ondemand.com
+  domain: edaa465.stage.kyma.ondemand.com
   imagePullSecret:
     {}
 srv:
@@ -51,7 +51,7 @@ xsuaa:
     tenant-mode: dedicated
     oauth2-configuration:
               redirect-uris:
-                  - https://*.c-7d619fa.stage.kyma.ondemand.com/**
+                  - https://*.edaa465.stage.kyma.ondemand.com/**
 html5-apps-repo-host:
   serviceOfferingName: html5-apps-repo
   servicePlanName: app-host
